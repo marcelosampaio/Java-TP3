@@ -11,6 +11,9 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    // O construtor permite criar o objeto já com seus valores iniciais, evitando várias atribuições
+    // ou chamadas de métodos separadas após a criação.
+
     public void exibirInformacoes() {
         System.out.println("Nome do produto: " + nome);
         System.out.println("Preço: " + preco);
